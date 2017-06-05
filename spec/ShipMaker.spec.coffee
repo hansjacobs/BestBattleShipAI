@@ -1,4 +1,4 @@
-{ShipMaker} = require "../javascripts/ShipMaker"
+{ShipMaker} = require "../coffeescripts/ShipMaker"
 
 describe 'ShipMaker', ->
     it 'CanMakeShip - X boundary max exceeded - false', ->
