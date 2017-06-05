@@ -2,6 +2,6 @@
 # Created by https://www.gitignore.io/api/coffeescript
 
 ### CoffeeScript ###
-*.js
+### *.js ### used for tests
 
 # End of https://www.gitignore.io/api/coffeescript
