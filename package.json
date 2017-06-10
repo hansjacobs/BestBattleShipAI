@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node spec --coffee"
   },
@@ -22,5 +19,6 @@
   "dependencies": {
     "coffeescript": "^2.0.0-beta2",
     "jasmine-node": "^1.14.5"
-  }
+  },
+  "devDependencies": {}
 }

@@ -30,6 +30,12 @@ class @ShipMaker
         else if @CanMakeShip(xPos, yPos, 0, 1)
             fields = @MakeShipFields(xPos, yPos, 0, 1)
             fields
+        else if @CanMakeShip(xPos, yPos, -1, 0)
+            fields = @MakeShipFields(xPos, yPos, -1, 0)
+            fields
+        else if @CanMakeShip(xPos, yPos, 0, -1)
+            fields = @MakeShipFields(xPos, yPos, 0, -1)
+            fields
 
     ConvertXyToCoordinate: (x, y) ->
         firstCoordinate
