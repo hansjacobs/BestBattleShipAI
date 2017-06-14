@@ -6,6 +6,9 @@ gulp.task('coffee', function() {
   gulp.src('./coffeescripts/*.coffee')
     .pipe(coffee({bare: true}))
     .pipe(gulp.dest('./javascripts/'));
+  gulp.src('./spec/*.coffee')
+    .pipe(coffee({bare: true}))
+    .pipe(gulp.dest('./spec/'));
 });
 
 gulp.task('jasmine', ['coffee'], () => {
