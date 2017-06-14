@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node spec --coffee"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,12 @@
   },
   "homepage": "https://github.com/hansjacobs/BestBattleShipAI#readme",
   "dependencies": {
-    "coffeescript": "^2.0.0-beta2",
-    "jasmine-node": "^1.14.5"
+    "coffeescript": "^2.0.0-beta2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jasmine-browser": "^1.7.1",
+    "jasmine": "^2.6.0",
+    "phantomjs": "^2.1.7"
+  }
 }

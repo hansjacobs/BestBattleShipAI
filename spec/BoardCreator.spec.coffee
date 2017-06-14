@@ -1,10 +1,7 @@
-{BoardCreator} = require '../coffeescripts/BoardCreator'
-{ShipMaker} = require '../coffeescripts/ShipMaker'
-
 describe 'BoardCreator', ->
     it 'CreateBoard - 100 games - 500 valid ships', ->    
         boardCreator = new BoardCreator()    
-        for i in [0...5]
+        for i in [0...100]
             result = boardCreator.CreateBoard()
             AreShipsValid result
     AreShipsValid = (ships) ->
