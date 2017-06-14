@@ -4,5 +4,5 @@
 ### CoffeeScript ###
 javascripts/
 node_modules/
-package-lock.json
+
 # End of https://www.gitignore.io/api/coffeescript
